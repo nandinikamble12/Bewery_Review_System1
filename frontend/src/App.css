@@ -4,6 +4,7 @@
   /* display: flex;
   place-items: center; */
   
+  
 }
 .navbar-container {
   width: 1490px;
@@ -17,9 +18,9 @@
   margin-left: 11rem;
 }
 .navbar-logo {
-  height: 80px;
+  height: 90px;
   margin: 1rem;
-  margin-right: 10rem;
+  margin-right: 1rem;
 }
 .btn{
   margin-top: 2rem;
@@ -110,23 +111,25 @@
 }
 
 .search-container {
-
+  width: 1450px;
+  background-color: orange;
   display: flex;
   justify-content: center;
   margin-bottom: 20px;
 }
 
 .search-container input {
-  margin-top: 2rem;
+  margin-top: 3rem;
   height: 20px;
   width: 300px;
-  margin-right: 10px;
+ 
   padding: 8px;
   font-size: 16px;
 }
 
 .search-container select {
-  margin-top: 2rem;
+  margin-top: 3rem;
+ 
   padding: 8px;
   height: 40px;
   width: 170px;
@@ -145,13 +148,176 @@
   padding: 20px;
   margin: 10px;
   width: 300px;
+  background-color: white;
   box-shadow: 0 2px 4px rgba(0,0,0,0.1);
 }
 
-.brewery-card h2 {
+.brewery-card h3 {
+  color: black;
   margin-top: 0;
 }
 
 .brewery-card p {
   margin: 5px 0;
+}
+
+
+/* //for signup css */
+.search-container1{
+  display: flex;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  height: 100px;
+  width:1500px;
+  background-color: orange;
+}
+.span2{
+  font-size: 2.2rem;
+  margin-top: 2rem;
+  text-shadow: 1px 1px 3px rgba(255, 215, 0, 0.8);
+  color: black;
+}
+.span3{
+ 
+  font-size: 2.2rem;
+  margin-top: 2rem;
+  text-shadow: 1px 1px 3px  white(255, 215, 0, 0.8);
+  color: black;
+}
+.navbar-logo1{
+  margin-left: 20rem;
+  height: 80px;
+  margin-top: 1rem;
+
+}
+.signup-form {
+ 
+  margin-left: 35rem;
+ width: 330px;
+  height: 400px;
+  padding: 20px;
+  background-color: white;
+  color:goldenrod;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+ 
+}
+
+.signup-form h1 {
+ 
+  margin-bottom: 40px;
+}
+
+.signup-form form {
+  display: flex;
+  flex-direction: column;
+}
+
+.signup-form label {
+  margin-bottom: 8px;
+  color: goldenrod;
+  font-weight: bold;
+}
+
+.signup-form input {
+  width: 300px;
+  background-color: #ccc;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.signup-form button {
+  padding: 12px 20px;
+  background-color:goldenrod;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  width: 100px;
+  margin-left: 6rem;
+}
+
+.signup-form button:hover {
+  background-color:orange;
+}
+
+/* for caed detilas  */
+.brewery-details {
+  
+  width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+ 
+  /* border: 1px solid #ccc; */
+  /* border-radius: 8px; */
+  /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
+}
+
+.brewery-details h2 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+  color: #333;
+  text-shadow: 1px 1px 3px rgba(255, 215, 0, 0.8); /* Golden text shadow */
+}
+
+.brewery-details p {
+  
+  margin-bottom: 8px;
+  color: black;
+}
+
+
+.brewery-details strong {
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+.brewery-details form {
+  margin-top: 20px;
+}
+
+.brewery-details textarea {
+  background-color: gainsboro;
+  color: black;
+  width: 80%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.brewery-details label {
+  display: block;
+  color: black;
+  margin-bottom: 6px;
+  font-weight: bold;
+}
+
+.brewery-details select {
+  padding: 8px;
+  background-color: gainsboro;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  color: black;
+  border-radius: 4px;
+}
+
+.brewery-details button {
+  padding: 12px 20px;
+  background-color:goldenrod;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.brewery-details button:hover {
+  background-color: orange;
 }
